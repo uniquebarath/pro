@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>second page</title>
+        <style>
+            .imaged{
+                position:relative;
+                display: inline-block;
+            }
+            .imgagedc{
+                display: none;
+                position: absolute;
+                padding: 15px;
+                background-color: cadetblue;
+
+
+            }
+            .conimage{
+                height: 400px; width: 300px;
+            }
+            .main{
+                height:100px;width: 80px;
+            }
+           
+            .imaged:hover .imgagedc{
+                display: block;
+            }
+            .imgt{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="imaged">
+            <img  class="main" src="4.jpeg" alt="Nazriya">
+            <div class="imgagedc">
+                <img class="conimage" src="4.jpeg" alt="big">
+                <div class="imgt">Nazriya Pic</div>
+            </div>
+        </div>
+    </body>
+
+
+
+</html>
